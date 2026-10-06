@@ -1,6 +1,14 @@
 # CrystalTalk
 
-**Your words, your way.** Free phrase buttons for nonverbal communication in VRChat, created by Crystal.
+## Your words. Your way.
+
+CrystalTalk is here — a free communication companion for VRChat, created by Crystal. Use your phone or tablet to say what you want with phrase buttons or typed messages.
+
+Made for everyone, with a focus on nonverbal people and anyone who doesn't want to use their mic.
+
+**Available now for iPhone, iPad, Android phones and tablets.**
+
+[Explore CrystalTalk](https://crystaltalk.xqv5xwnjjq.chatgpt.site) · [Get started](#website-and-downloads) · [See what it can do](#what-can-crystaltalk-do)
 
 ## Why I made it
 
@@ -56,9 +64,11 @@ Android emulator on the same computer: use `10.0.2.2:9000` for the host computer
 
 The layout adapts to screen width, text size, portrait and landscape. The creator reported successful use on iPhone and iPad and opened the Android app in a phone emulator. Not all devices or live Android OSC delivery have been verified. Standalone Quest and console setups are not verified by this release.
 
-## Project structure
+## About this launch
 
-`dist/` contains the public static site and independent app downloads. This repository replaces the two earlier app repositories as the public download hub. Full Git-history backups of both original projects are retained privately before deletion.
+This is the public home for CrystalTalk: the launch website, feature overview, downloads and installation guides. The app packages are hosted independently of the earlier development repositories. Full source-history backups of the original Apple and Android projects are preserved.
+
+The public website source is in `dist/index.html`.
 
 ## Creator
 
