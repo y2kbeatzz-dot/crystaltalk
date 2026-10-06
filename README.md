@@ -8,7 +8,7 @@ Made for everyone, with a focus on nonverbal people and anyone who doesn't want 
 
 **Available now for iPhone, iPad, Android phones and tablets.**
 
-[Explore CrystalTalk](https://crystaltalk.xqv5xwnjjq.chatgpt.site) · [Get started](#website-and-downloads) · [See what it can do](#what-can-crystaltalk-do)
+[Explore CrystalTalk](https://y2kbeatzz-dot.github.io/crystaltalk/) · [Get started](#website-and-downloads) · [See what it can do](#what-can-crystaltalk-do)
 
 ## Why I made it
 
@@ -27,7 +27,7 @@ For everyone who wants to communicate through text, with a focus on nonverbal pe
 
 ## Website and downloads
 
-[Open the CrystalTalk website](https://crystaltalk.xqv5xwnjjq.chatgpt.site) for direct downloads and complete installation instructions.
+[Open the CrystalTalk website](https://y2kbeatzz-dot.github.io/crystaltalk/) for direct downloads and complete installation instructions.
 
 - [iPhone / iPad — Launch.ipa](https://github.com/y2kbeatzz-dot/crystal-talk/releases/download/launch/Launch.ipa): iOS / iPadOS 17+ launch build.
 - [Android — Launch.apk](https://github.com/y2kbeatzz-dot/crystal-talk-android/releases/download/launch/Launch.apk): Android 8.0+ launch build for phones and tablets.
