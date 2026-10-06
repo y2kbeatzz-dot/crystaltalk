@@ -29,8 +29,8 @@ For everyone who wants to communicate through text, with a focus on nonverbal pe
 
 [Open the CrystalTalk website](https://crystaltalk.xqv5xwnjjq.chatgpt.site) for direct downloads and complete installation instructions.
 
-- [iPhone / iPad IPA](https://crystaltalk.xqv5xwnjjq.chatgpt.site/downloads/CrystalTalk.ipa): iOS / iPadOS 17+, universal unsigned IPA, v1.4.0 build 7.
-- [Android ZIP containing the APK](https://crystaltalk.xqv5xwnjjq.chatgpt.site/downloads/CrystalTalk-Android.zip): Android 8.0+, phones and tablets, debug-signed test build.
+- [iPhone / iPad — Launch.ipa](https://github.com/y2kbeatzz-dot/crystal-talk/actions/runs/37406918711): iOS / iPadOS 17+ launch build.
+- [Android — Launch.apk](https://github.com/y2kbeatzz-dot/crystal-talk-android/actions/runs/37408300138): Android 8.0+ launch build for phones and tablets.
 
 ## Install on iPhone or iPad
 
@@ -40,16 +40,16 @@ For everyone who wants to communicate through text, with a focus on nonverbal pe
 4. Select the device and IPA in Sideloadly, then sign/install with your Apple account. Enter credentials only in the signing tool.
 5. Follow its instructions for developer trust / Developer Mode when required. Open CrystalTalk.
 
-This is not an App Store release. Signing requirements and renewal periods depend on your account and tool; free accounts generally need periodic re-signing.
+Launch.ipa is distributed for sideloading and is not an App Store release. Signing requirements and renewal periods depend on your account and tool; free accounts generally need periodic re-signing.
 
 ## Install on Android
 
-1. Download the Android ZIP on your phone or tablet and extract it to get the APK.
+1. Download **Launch.apk** on your phone or tablet.
 2. Open it from Downloads or the file manager.
 3. If prompted, allow that browser/file manager to install unknown apps.
 4. Tap Install, then open CrystalTalk. Turn off the install permission afterward if desired.
 
-For testing in [Android Studio](https://developer.android.com/studio), create a phone or tablet emulator, start it, and drag the APK onto the emulator screen. New test builds may use a different signing key; uninstall the old version if Android reports a signature mismatch. Uninstalling clears saved settings.
+For testing in [Android Studio](https://developer.android.com/studio), create a phone or tablet emulator, start it, and drag the APK onto the emulator screen. Future builds may use a different signing key; uninstall the old version if Android reports a signature mismatch. Uninstalling clears saved settings.
 
 ## Connect to VRChat
 
