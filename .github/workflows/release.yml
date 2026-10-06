@@ -1,0 +1,33 @@
+name: Publish CrystalTalk release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/release.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Verify launch files
+        run: |
+          test -f dist/CrystalTalk.ipa
+          test -f dist/CrystalTalk.apk
+
+      - name: Publish CrystalTalk Launch release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view launch >/dev/null 2>&1; then
+            gh release upload launch dist/CrystalTalk.ipa dist/CrystalTalk.apk --clobber
+            gh release edit launch --title "CrystalTalk Launch" --notes "Official CrystalTalk launch release for iPhone, iPad, Android phones, and Android tablets."
+          else
+            gh release create launch dist/CrystalTalk.ipa dist/CrystalTalk.apk               --title "CrystalTalk Launch"               --notes "Official CrystalTalk launch release for iPhone, iPad, Android phones, and Android tablets."
+          fi
