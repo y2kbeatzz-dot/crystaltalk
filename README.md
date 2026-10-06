@@ -22,7 +22,7 @@ For everyone who wants to communicate through text, with a focus on nonverbal pe
 [Open the CrystalTalk website](https://crystaltalk.xqv5xwnjjq.chatgpt.site) for direct downloads and complete installation instructions.
 
 - [iPhone / iPad IPA](https://crystaltalk.xqv5xwnjjq.chatgpt.site/downloads/CrystalTalk.ipa): iOS / iPadOS 17+, universal unsigned IPA, v1.4.0 build 7.
-- [Android APK](https://crystaltalk.xqv5xwnjjq.chatgpt.site/downloads/CrystalTalk-Android-test.apk): Android 8.0+, phones and tablets, debug-signed test build.
+- [Android ZIP containing the APK](https://crystaltalk.xqv5xwnjjq.chatgpt.site/downloads/CrystalTalk-Android.zip): Android 8.0+, phones and tablets, debug-signed test build.
 
 ## Install on iPhone or iPad
 
@@ -36,7 +36,7 @@ This is not an App Store release. Signing requirements and renewal periods depen
 
 ## Install on Android
 
-1. Download the APK on your phone or tablet.
+1. Download the Android ZIP on your phone or tablet and extract it to get the APK.
 2. Open it from Downloads or the file manager.
 3. If prompted, allow that browser/file manager to install unknown apps.
 4. Tap Install, then open CrystalTalk. Turn off the install permission afterward if desired.
