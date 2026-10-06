@@ -29,8 +29,8 @@ For everyone who wants to communicate through text, with a focus on nonverbal pe
 
 [Open the CrystalTalk website](https://crystaltalk.xqv5xwnjjq.chatgpt.site) for direct downloads and complete installation instructions.
 
-- [iPhone / iPad — Launch.ipa](https://github.com/y2kbeatzz-dot/crystal-talk/actions/runs/37406918711): iOS / iPadOS 17+ launch build.
-- [Android — Launch.apk](https://github.com/y2kbeatzz-dot/crystal-talk-android/actions/runs/37408300138): Android 8.0+ launch build for phones and tablets.
+- [iPhone / iPad — Launch.ipa](https://github.com/y2kbeatzz-dot/crystal-talk/releases/download/launch/Launch.ipa): iOS / iPadOS 17+ launch build.
+- [Android — Launch.apk](https://github.com/y2kbeatzz-dot/crystal-talk-android/releases/download/launch/Launch.apk): Android 8.0+ launch build for phones and tablets.
 
 ## Install on iPhone or iPad
 
