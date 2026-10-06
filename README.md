@@ -1,2 +1,67 @@
-# crystaltalk-downloads
-CrystalTalk website, downloads, and installation guides for iPhone, iPad, Android phones and tablets.
+# CrystalTalk
+
+**Your words, your way.** Free phrase buttons for nonverbal communication in VRChat, created by Crystal.
+
+## Why I made it
+
+I made CrystalTalk to help nonverbal people and anyone who doesn't want to talk communicate in VRChat. Whether speaking isn't possible, isn't comfortable, or you simply prefer not to use your mic, I wanted a simple way to join the conversation with a tap. Choose a phrase, add your own, or type a message.
+
+## What can CrystalTalk do?
+
+- Send preset phrase buttons to the VRChat chatbox over OSC.
+- Type messages when you need different words.
+- Add your own custom phrases.
+- Save connection settings for future sessions.
+- Discover VRChat on the local network, with manual IP and port entry as a fallback.
+- Adapt the layout for phones, tablets, portrait and landscape.
+
+For everyone who wants to communicate through text, with a focus on nonverbal people and anyone who doesn't want to talk.
+
+## Website and downloads
+
+[Open the CrystalTalk website](https://crystaltalk.xqv5xwnjjq.chatgpt.site) for direct downloads and complete installation instructions.
+
+- [iPhone / iPad IPA](https://crystaltalk.xqv5xwnjjq.chatgpt.site/downloads/CrystalTalk.ipa): iOS / iPadOS 17+, universal unsigned IPA, v1.4.0 build 7.
+- [Android APK](https://crystaltalk.xqv5xwnjjq.chatgpt.site/downloads/CrystalTalk-Android-test.apk): Android 8.0+, phones and tablets, debug-signed test build.
+
+## Install on iPhone or iPad
+
+1. Download the IPA on your Windows PC or Mac.
+2. Install [Sideloadly](https://sideloadly.io/) from the official website and follow its setup requirements.
+3. Connect the unlocked device by USB and trust the computer.
+4. Select the device and IPA in Sideloadly, then sign/install with your Apple account. Enter credentials only in the signing tool.
+5. Follow its instructions for developer trust / Developer Mode when required. Open CrystalTalk.
+
+This is not an App Store release. Signing requirements and renewal periods depend on your account and tool; free accounts generally need periodic re-signing.
+
+## Install on Android
+
+1. Download the APK on your phone or tablet.
+2. Open it from Downloads or the file manager.
+3. If prompted, allow that browser/file manager to install unknown apps.
+4. Tap Install, then open CrystalTalk. Turn off the install permission afterward if desired.
+
+For testing in [Android Studio](https://developer.android.com/studio), create a phone or tablet emulator, start it, and drag the APK onto the emulator screen. New test builds may use a different signing key; uninstall the old version if Android reports a signature mismatch. Uninstalling clears saved settings.
+
+## Connect to VRChat
+
+1. Run VRChat on your computer and enable OSC in its Action Menu.
+2. Put the phone/tablet and computer on the same local network. Allow local-network access if requested.
+3. Use CrystalTalk discovery, or enter your computer's local IPv4 address and OSC input port (normally 9000).
+4. Send a phrase and check the VRChat chatbox. Sending alone does not confirm receipt.
+
+Android emulator on the same computer: use `10.0.2.2:9000` for the host computer. Real devices need the computer's local-network IP. If discovery fails, check guest Wi-Fi isolation, VPNs, and private-network firewall permissions; don't disable the firewall.
+
+## Compatibility and verification
+
+The layout adapts to screen width, text size, portrait and landscape. The creator reported successful use on iPhone and iPad and opened the Android app in a phone emulator. Not all devices or live Android OSC delivery have been verified. Standalone Quest and console setups are not verified by this release.
+
+## Project structure
+
+`dist/` contains the public static site and independent app downloads. This repository replaces the two earlier app repositories as the public download hub. Full Git-history backups of both original projects are retained privately before deletion.
+
+## Creator
+
+Created by **Crystal** · [GitHub](https://github.com/y2kbeatzz-dot) · [guns.lol](http://guns.lol/life999)
+
+© 2026 Crystal. Independent project; not affiliated with or endorsed by VRChat.
