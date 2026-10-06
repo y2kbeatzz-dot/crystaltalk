@@ -30,7 +30,18 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Build social share image
-        run: cat share-hq-v3/part*.txt | tr -d '\n\r' | base64 --decode > dist/crystaltalk-share-v3.jpg
+        run: |
+          cat share-hq-v3/part*.txt | tr -d '\n\r' | base64 --decode > /tmp/crystaltalk-share-source.jpg
+          python -m pip install --quiet Pillow
+          python - <<'PY'
+          from PIL import Image
+          im = Image.open('/tmp/crystaltalk-share-source.jpg').convert('RGB')
+          im = im.resize((1200, 630), Image.Resampling.LANCZOS)
+          im.save('dist/crystaltalk-share-v4.jpg', 'JPEG', quality=92, optimize=True, progressive=False, subsampling=0)
+          print(im.size)
+          PY
+          file dist/crystaltalk-share-v4.jpg
+          test -s dist/crystaltalk-share-v4.jpg
       - name: Upload CrystalTalk site
         uses: actions/upload-pages-artifact@v4
         with:
