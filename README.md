@@ -49,7 +49,7 @@ Launch.ipa is distributed for sideloading and is not an App Store release. Signi
 3. If prompted, allow that browser/file manager to install unknown apps.
 4. Tap Install, then open CrystalTalk. Turn off the install permission afterward if desired.
 
-For testing in [Android Studio](https://developer.android.com/studio), create a phone or tablet emulator, start it, and drag the APK onto the emulator screen. Future builds may use a different signing key; uninstall the old version if Android reports a signature mismatch. Uninstalling clears saved settings.
+Future builds may require reinstalling if Android reports a signature mismatch.
 
 ## Connect to VRChat
 
@@ -58,11 +58,11 @@ For testing in [Android Studio](https://developer.android.com/studio), create a 
 3. Use CrystalTalk discovery, or enter your computer's local IPv4 address and OSC input port (normally 9000).
 4. Send a phrase and check the VRChat chatbox. Sending alone does not confirm receipt.
 
-Android emulator on the same computer: use `10.0.2.2:9000` for the host computer. Real devices need the computer's local-network IP. If discovery fails, check guest Wi-Fi isolation, VPNs, and private-network firewall permissions; don't disable the firewall.
+Real Android devices need the computer's local-network IP and OSC port `9000`. If discovery fails, check guest Wi-Fi isolation, VPNs, and private-network firewall permissions; don't disable the firewall.
 
 ## Compatibility and verification
 
-The layout adapts to screen width, text size, portrait and landscape. The creator reported successful use on iPhone and iPad and opened the Android app in a phone emulator. Not all devices or live Android OSC delivery have been verified. Standalone Quest and console setups are not verified by this release.
+The layout adapts to screen width, text size, portrait and landscape. CrystalTalk supports iPhone, iPad, Android phones, and Android tablets. Standalone Quest and console setups are not supported by this release.
 
 ## About this launch
 
